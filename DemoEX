@@ -635,7 +635,7 @@ apt-get install openssh-common
 
 vim /etc/openssh/sshd_config
 
-Port 2024
+Port 2026
 
 MaxAuthTries 2
 
