@@ -11,7 +11,7 @@ hostnamectl set-hostname hq-srv.au-team.irpo; exec bash
 ISP
 
 hostnamectl set-hostname isp; exec bash
-
+(если вдруг нет nano, то apt-get install nano)
 nano /etc/network/interfaces
 
 auto eth0
